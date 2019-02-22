@@ -143,4 +143,79 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+} 
+
+/*--------------------------------Entire-Page-------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+} 
+
+/*----------------------------------Top-Page--------------------------------------*/
+
+header {
+    display: flex;
+    
+} 
+
+header nav {
+    width: 100%;
+    margin-left: 20px;
+    padding-top: 3%; 
+}
+
+header nav a {
+ margin: 5%; 
+ color: black; 
+    
+} 
+
+a:hover {
+    color: 1px solid blue;
+}
+
+div .about-page {
+    margin: 20px 0 20px 0;
+    border-bottom: 1px solid black; 
+    border-bottom-style: dashed;
+}
+
+/*----------------------------------Body-Content--------------------------------------*/
+
+section .content {
+    display: flex; 
+    flex-wrap: wrap;
+    border: 2px solid red;
+    margin: 20px 0 20px 0;
+
+} 
+
+
+div .content-cards {
+    border-bottom: 1px solid black; 
+    border-bottom-style: dashed;
+    margin-top: 20px 0 20px 0;
+} 
+
+div .content-cards p {
+    width: 40%; 
+} 
+
+.button {
+    color: 2px solid black;
+}
+
+/*------------------------------------Footer--------------------------------------*/
+
+section .footer {
+    padding-top: 20px;
+
+} 
+
+footer .bottom-content {
+    padding-top: 10px;
 }
