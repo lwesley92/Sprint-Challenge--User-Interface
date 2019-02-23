@@ -66,10 +66,6 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
 
 .top-content {
     display: flex;
@@ -132,7 +128,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,14 +147,20 @@ footer nav a {
     box-sizing: border-box;
 }
 
-.container {
-    margin: 0 auto;
-} 
+div .container {
+        margin: 1000px;      
+}
+
+body {
+    height: 100%;
+}
+
 
 /*----------------------------------Top-Page--------------------------------------*/
 
 header {
-    display: flex;
+    display: flex; 
+    margin-bottom: 10px; 
     
 } 
 
@@ -174,48 +176,168 @@ header nav a {
     
 } 
 
-a:hover {
-    color: 1px solid blue;
+header nav a:hover {
+    color: 1px solid white;
+    text-decoration: underline;
 }
+
 
 div .about-page {
-    margin: 20px 0 20px 0;
+    margin: 40px 0;
     border-bottom: 1px solid black; 
-    border-bottom-style: dashed;
+    border-bottom-style: dashed; 
+    width: 2%;
 }
 
+section .top-pic {
+margin: 20px 0;
+
+}
 /*----------------------------------Body-Content--------------------------------------*/
 
-section .content {
+div .content {
     display: flex; 
-    flex-wrap: wrap;
-    border: 2px solid red;
-    margin: 20px 0 20px 0;
-
+    flex-wrap: wrap; 
+    width: 77%;
+    
 } 
 
 
-div .content-cards {
-    border-bottom: 1px solid black; 
+div .content-cards { 
+    /*border-bottom: 1px solid black; 
+    border-bottom-width: 20%;
     border-bottom-style: dashed;
-    margin-top: 20px 0 20px 0;
-} 
+*/  width: 50%;
+    justify-content: space-between;
+    
+}  
+
+
 
 div .content-cards p {
-    width: 40%; 
+    line-height: 30px;
 } 
+
+
 
 .button {
     color: 2px solid black;
+    margin-top: 10px;
 }
 
 /*------------------------------------Footer--------------------------------------*/
 
-section .footer {
+section .footer { 
     padding-top: 20px;
 
 } 
 
 footer .bottom-content {
     padding-top: 10px;
+}
+
+/*------------------------------------Second-Page--------------------------------------*/
+
+
+header {
+    display: flex; 
+    margin-bottom: 25px;  
+    padding-left: 12%;
+}  
+
+* {
+    box-sizing: border-box;
+} 
+
+
+div .text-content {
+ width: 28%; 
+ margin-top: 10px;
+ display: inline-block
+}
+
+.middle-content {
+    width: 79.5%;
+    padding-left: 10%;
+}
+
+ .middle-content .boxes .box-1 {
+    background-color: teal; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+
+    
+}
+
+section .body-content {
+    margin-left: 50%;
+}
+
+.middle-content .boxes .box-2 {
+    background-color: gold; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-3 {
+    background-color: cadetblue; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-4 {
+    background-color: coral; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-5 {
+    background-color: crimson; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-6 {
+    background-color: forestgreen; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-7 {
+    background-color: darkorchid; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-8 {
+    background-color: hotpink; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-9 {
+    background-color: indigo; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-10 {
+    background-color: dodgerblue;
+    width: 90px;
+    padding: 25px;
+    margin: 25px; 
+
+}
+
+section .last-content { 
+    display: inline-block;
 }
