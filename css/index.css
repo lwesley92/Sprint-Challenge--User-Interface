@@ -148,7 +148,8 @@ footer nav a {
 }
 
 div .container {
-        margin: 1000px;      
+     /*  margin: 1000px; */   
+     margin: 0 10%;
 }
 
 body {
