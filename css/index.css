@@ -144,3 +144,267 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*--------------------------------Entire-Page-------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+div .container {
+     /*  margin: 1000px; */   
+     margin: 0 10%;
+}
+
+body {
+    height: 100%;
+}
+
+
+/*----------------------------------Top-Page--------------------------------------*/
+
+header {
+    display: flex; 
+    margin-bottom: 10px; 
+
+    
+} 
+
+header nav {
+    width: 100%;
+    margin-left: 20px;
+    padding-top: 3%; 
+}
+
+header nav a {
+ margin: 5%; 
+ color: black; 
+    
+} 
+
+header nav a:hover {
+    color: 1px solid white;
+    text-decoration: underline;
+}
+
+
+div .about-page {
+    margin: 40px 0;
+   /* border-bottom: 1px solid black; 
+    border-bottom-style: dashed; 
+    width: 2%; */
+}
+
+div .top-pic {
+margin-left: 12%; 
+margin-right: 13%;
+
+} 
+
+div .about-content {
+ margin-top: 13px;
+ border-bottom: 1px solid black; 
+ border-bottom-style: dashed;
+ border-bottom-width: 1px;
+
+} 
+
+
+
+
+/*----------------------------------Body-Content--------------------------------------*/
+
+div .content {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 77%; 
+    margin: auto;
+    
+} 
+
+
+div .content-cards { 
+    border-bottom: 1px solid black; 
+    border-bottom-width: 0.5%;
+    border-bottom-style: dashed;  
+    width: 50%;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}  
+
+ 
+
+
+
+div .content-cards p {
+    line-height: 30px;
+} 
+
+
+
+button {
+    color: border 2px black;
+    margin-top: 10px;
+}
+
+/*------------------------------------Footer--------------------------------------*/
+
+div .footer { 
+    padding-top: 20px;
+    width: 76%; 
+    margin: auto; 
+    padding-bottom: 20px
+
+} 
+
+footer nav .bottom {
+    width: 100%;
+
+
+} 
+
+div .ending {
+    margin-left: 115px;
+    margin-right: 105px;
+}
+
+/*------------------------------------Second-Page--------------------------------------*/
+
+
+header {
+    display: flex; 
+    margin-bottom: 25px;  
+    padding-left: 12%; 
+
+}  
+
+* {
+    box-sizing: border-box;
+} 
+
+
+div .text-content {
+ width: 83%; 
+ margin-top: 10px;
+ display: flex;
+ margin-left: 1%;
+ margin-bottom: 40px;
+}
+
+div .text-container { 
+    align-content: center;
+    width: 30%;
+
+}
+
+/*div .future {
+    margin-right: 
+    margin-left:
+} 
+
+div .past {
+    margin-left:
+}*/ 
+
+div .boxes {
+    margin-right: 80%;
+
+}
+
+div .middle-content { 
+    display: flex;
+    flex-wrap: wrap; 
+    width: 370%;
+    margin-right: 90%;
+    margin-bottom: 3%;
+}
+
+ .middle-content .boxes .box-1 {
+    background-color: teal; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+ 
+}
+
+div .body-content {
+    margin-left: 12%;
+}
+
+.middle-content .boxes .box-2 {
+    background-color: gold; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-3 {
+    background-color: cadetblue; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-4 {
+    background-color: coral; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-5 {
+    background-color: crimson; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-6 {
+    background-color: forestgreen; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-7 {
+    background-color: darkorchid; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-8 {
+    background-color: hotpink; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-9 {
+    background-color: indigo; 
+    width: 90px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle-content .boxes .box-10 {
+    background-color: dodgerblue;
+    width: 90px;
+    padding: 25px;
+    margin: 25px; 
+
+}
+
+ div .last-content { 
+     display: flex; 
+
+}  
+
+div .finish {
+    margin-top: 15px;
+    margin-left: 10px;
+    justify-content: left; 
+    width: 125%; 
+
